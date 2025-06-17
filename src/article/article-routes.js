@@ -8,6 +8,7 @@ router.get("/all", async (request, response) => {
 
     const responseAPI = await articleService.getAllArticles();
 
+    
     return response.json(responseAPI);
 });
 
