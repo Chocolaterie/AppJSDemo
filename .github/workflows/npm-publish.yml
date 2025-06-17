@@ -31,8 +31,8 @@ jobs:
       - name: Deploy to Server
         uses: appleboy/scp-action@master
         with:
-          host: 165.232.147.139
+          host: 138.68.128.28
           username: root
-          password: Chocolatine31
+          password: ChocolatIne31o
           source: "*"
           target: /home/my_app/
